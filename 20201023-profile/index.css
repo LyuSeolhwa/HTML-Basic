@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: row;
+    
+    width: fit-content;
+    margin: 42px;
+    padding: 42px;
+    
+    border-width: 2px;
+    border-color: darkblue;
+    border-style: solid;
+}
+
+#left img {
+    display: block;
+
+   width: 300px;
+   height: 300px; 
+
+   margin-bottom: 24px;
+}
+
+#name  {
+    display: block;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+#right  .details {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+
+    list-style: none;
+}
+
+#right .details li {
+    margin-bottom: 28px;
+    font-size: 19pt;  
+}
+
+#right  {
+    display: flex;
+    flex-direction: column;
+}
+
+#skillList {
+    display: flex;
+
+    margin-top: auto;
+
+    width: auto;
+}
+
+#left {
+    margin-right: 36px;
+}
+
+#skillList > img {
+    flex-shrink: 1;
+    width: 100px;
+    margin-right: 20px;
+}

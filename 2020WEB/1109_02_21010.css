@@ -1,0 +1,34 @@
+@charset "utf-8"
+    
+#wrap{
+    overflow:hidden;
+}
+
+#logo{
+    float:left;
+    width:200px;
+    height:100px;
+    padding:10px;
+}
+
+nav{
+    float:left;
+    width:200px;
+    height:100px;
+    padding:10px;
+}
+
+#float-p{
+    float:left;
+    width:500px;
+    height:50px;
+    background-color:#cccccc;
+    color:#ffffff;
+}
+
+aside{
+    clear:left;
+    width:200px;
+    margin-top:10px;
+    margin-left:60%;
+}
